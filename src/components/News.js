@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import Newsitems from './Newsitems'
-
+const apikey=process.env.API_KEY;
 export default class News extends Component {
     articles=[
         {
